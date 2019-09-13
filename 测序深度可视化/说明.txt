@@ -1,0 +1,4 @@
+1.确保1.pl*  2.pl*  3.pl*  all.sh  chr_to_50kb_window.pl*这五个脚本在相同目录下面（可以将script文件夹整体传入服务器），配置好all.sh的基本信息后，只需sh all.sh即可
+2.再将生成的两个文件传到Windows电脑上去，用RStudio画图
+3.picture.R中的命令需要输入到RStudio中一步一步运行
+4.测序深度可视化_详细过程.pdf为详细过程，包含具体的分析思路

@@ -1,0 +1,7 @@
+﻿0.这一个流程主要部分是比对+变异检测，适用于单个样本；如果是批量样本，变异检测这一步需要改（中途每一个样本需要生成gvcf，再合起来一起做call snp）
+1.先跑make_ref_index.sh，再跑QC.sh和WGS_call_variation.sh。比如在home目录下（登录服务器后所在的目录就是home目录）运行`sh make_ref_index.sh`
+2.如果只想跑比对，可以将“变异检测”部分整体注释掉，像这样
+
+:<<EOF
+此处是代码
+EOF
